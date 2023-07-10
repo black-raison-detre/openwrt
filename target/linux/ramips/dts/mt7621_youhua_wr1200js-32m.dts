@@ -1,0 +1,12 @@
+// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
+
+#include "mt7621_youhua_wr1200js.dtsi"
+
+/ {
+	compatible = "youhua,wr1200js-32m", "mediatek,mt7621-soc";
+	model = "YouHua WR1200JS (32M)";
+};
+
+&firmware {
+	reg = <0x50000 0x1fb0000>;
+};
